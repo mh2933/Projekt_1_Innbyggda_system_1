@@ -1,0 +1,18 @@
+/* Inbyggda system 1 - Projekt 1 - Timers-0-1-2 - toggle leds */
+
+1. Vad lärde ni er av projektet? 
+Fick en djupare förståelse för hur timer 0-2 fungerar och att det är viktigt i vilken adressordnig man lägger
+avbrottsvektorer, för att ej skriva över dessa. 
+
+2. Vad var lätt/svårt?
+Lätt börjar strukturen på programmet bli var man lägger makron .CSEG, .DSEG, main, main_loop osv. 
+Svårt är ordningsföljden på alla register och bitar som ettställs/nollställs, samnt debouncen var svår,
+den stängde av andra delar i programmet när maskbit TIMSK0 ettställdes.
+
+3. Vad hade ni velat lärt er mer innan projektet?
+Vi har gått igenom alla dessa delar för sig men det svåra är oftast när man skriver ihop kode med varandra. Men tiden 
+är knapp så det är svårt att avgöra vad som hade varit bättre eller sämre att lära sig först. 
+
+4. Övriga kommentarer
+Assembler är kul när man börjar förstå och det ger än en djupare förståelse för kod och hårdvara
+generellt så med tiden kommer detta ge utdelning. Och det är såklart mer krävande men kul.    
